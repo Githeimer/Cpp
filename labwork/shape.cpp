@@ -28,4 +28,12 @@ public:
     {
         cout << "Display from Base Class." << endl;
     }
+
+};
+
+class Triangle: public Shape 
+{
+    double side_c;
+
+    void set_data()
 };
